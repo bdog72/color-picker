@@ -1,13 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <head lang="en">
+
+<head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     <title>color picker</title>
     <link rel="stylesheet" href="/screen.css">
-  </head>
-  <body>
-    <h1>Hello, World!</h1>
+</head>
+
+<body>
+    <header>
+        <h1>An HSL Color Picker..</h1>
+    </header>
+    <section class="sec1">
+        <div>
+
+        </div>
+    </section>
+    <div class="one">
+        <form>
+            <p>HUE</p>
+            <input id="hu" type="range" min="0" max="255">
+            <p>SATURATION</p>
+            <input id="sat" type="range" min="0" max="100">
+            <P>LIGHTNESS</P>
+            <input id="light" type="range" min="0" max="100">
+        </form>
+    </div>
     <script src="/main.js" charset="utf-8"></script>
-  </body>
+</body>
+
 </html>
