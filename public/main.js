@@ -21,18 +21,21 @@ const main = () => {
   hueInput.addEventListener('input', () => {
     hue = hueInput.value
     document.querySelector('.sec1').style.backgroundColor = getHSL()
+    document.querySelector('h3').textContent = getHSL()
   })
 
   const satInput = document.getElementById('sat')
   satInput.addEventListener('input', () => {
     sat = satInput.value
     document.querySelector('.sec1').style.backgroundColor = getSAT()
+    document.querySelector('h3').textContent = getSAT()
   })
 
   const lightInput = document.getElementById('light')
   lightInput.addEventListener('input', () => {
     light = lightInput.value
     document.querySelector('.sec1').style.backgroundColor = getLIGHT()
+    document.querySelector('h3').textContent = getLIGHT()
   })
 }
 

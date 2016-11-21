@@ -9,25 +9,31 @@
 </head>
 
 <body>
-    <header>
-        <h1>An HSL Color Picker..</h1>
-    </header>
-    <section class="sec1">
-        <div>
+    <main>
+        <header>
+            <h1>An HSL Color Picker..</h1>
+        </header>
+        <section class="sec1">
+            <div>
 
+            </div>
+        </section>
+        <div class="one">
+<!-- <h3>hsla (130, 50%, 50%, .05)</h3> -->
+            <form>
+              <h3>hsla (180, 50%, 50%, .05)</h3>
+                <p>HUE</p>
+                <input id="hu" type="range" min="0" max="360">
+                <p>SATURATION</p>
+                <input id="sat" type="range" min="0" max="100">
+                <P>LIGHTNESS</P>
+                <input id="light" type="range" min="0" max="100">
+                <p>ALPHA</p>
+                <input id="alp" type="range"
+            </form>
         </div>
-    </section>
-    <div class="one">
-        <form>
-            <p>HUE</p>
-            <input id="hu" type="range" min="0" max="255">
-            <p>SATURATION</p>
-            <input id="sat" type="range" min="0" max="100">
-            <P>LIGHTNESS</P>
-            <input id="light" type="range" min="0" max="100">
-        </form>
-    </div>
-    <script src="/main.js" charset="utf-8"></script>
+        <script src="/main.js" charset="utf-8"></script>
+    </main>
 </body>
 
 </html>
